@@ -52,7 +52,7 @@ mdFile.new_paragraph("``Conclusie Korenmarkt:`` Lorem ipsum dolor sit amet, cons
 
 mdFile.write('  \n')
 mdFile.write('  \n')
-mdFile.new_paragraph("Project gemaakt door [link naar api](https://data.stad.gent/explore/dataset/real-time-bezettingen-fietsenstallingen-gent/api/).")
+mdFile.new_paragraph("Project gemaakt door [Pieterjan Van Landeghem](https://www.linkedin.com/in/pieterjan-van-landeghem-339b7b163/).")
 mdFile.write('  \n')
 mdFile.new_paragraph("Dit rapport is gemaakt voor het vak linux for data scientists aan de Hogent.")
 mdFile.write('  \n')
