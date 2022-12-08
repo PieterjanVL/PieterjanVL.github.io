@@ -29,7 +29,7 @@ In de algemene analyse kijken we naar de gemmidelde waarde van beide fietsparkin
 
 
 <p align="center">
-    <img src="/Users/pieterjan/Documents/linux-22-23-PieterjanVL/data-workflow/analyse/2022-12-07_23:39:40/grafiek4.png" width="400" height="300"/>
+    <img src="/Users/pieterjan/Documents/Rapport/analyse/2022-12-08_02:02:08/grafiek4.png" width="400" height="300"/>
 </p>
 
 ``Conclusie:`` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.
@@ -37,7 +37,7 @@ In de algemene analyse kijken we naar de gemmidelde waarde van beide fietsparkin
 
 
 <p align="center">
-    <img src="/Users/pieterjan/Documents/linux-22-23-PieterjanVL/data-workflow/analyse/2022-12-07_23:39:40/grafiek3.png" width="400" height="300"/>
+    <img src="/Users/pieterjan/Documents/Rapport/analyse/2022-12-08_02:02:08/grafiek3.png" width="400" height="300"/>
 </p>
 
 ``Conclusie:`` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.
@@ -49,7 +49,7 @@ De specifieke analyse bekijkt en analyseerd beide fietsparkingen apart.
 
 
 <p align="center">
-    <img src="/Users/pieterjan/Documents/linux-22-23-PieterjanVL/data-workflow/analyse/2022-12-07_23:39:40/grafiek1.png" width="400" height="300"/>
+    <img src="/Users/pieterjan/Documents/Rapport/analyse/2022-12-08_02:02:08/grafiek1.png" width="400" height="300"/>
 </p>
 
 ``Conclusie Braunplein: `` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.
@@ -59,7 +59,7 @@ De specifieke analyse bekijkt en analyseerd beide fietsparkingen apart.
 
 
 <p align="center">
-    <img src="/Users/pieterjan/Documents/linux-22-23-PieterjanVL/data-workflow/analyse/2022-12-07_23:39:40/grafiek2.png" width="400" height="300"/>
+    <img src="/Users/pieterjan/Documents/Rapport/analyse/2022-12-08_02:02:08/grafiek2.png" width="400" height="300"/>
 </p>
 
 ``Conclusie Braunplein:`` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.
@@ -70,4 +70,4 @@ De specifieke analyse bekijkt en analyseerd beide fietsparkingen apart.
   
 <font color="gray">Dit rapport is gemaakt voor het vak linux for data scientists aan de Hogent.</font>  
   
-<center>Published on 2022-12-07_23:39:40</center>
+<center>Published on 2022-12-08_02:02:08</center>
