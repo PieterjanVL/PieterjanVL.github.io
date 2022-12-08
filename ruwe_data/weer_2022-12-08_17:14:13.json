@@ -1,7 +1,7 @@
 {
   "coord": {
-    "lon": 3.725,
-    "lat": 51.0538
+    "lon": 3.73,
+    "lat": 51.05
   },
   "weather": [
     {
@@ -13,30 +13,30 @@
   ],
   "base": "stations",
   "main": {
-    "temp": 2.6,
-    "feels_like": -1.08,
-    "temp_min": 2.22,
-    "temp_max": 4.36,
-    "pressure": 1012,
-    "humidity": 80,
-    "sea_level": 1012,
-    "grnd_level": 1010
+    "temp": 2.53,
+    "feels_like": -0.1,
+    "temp_min": 1.61,
+    "temp_max": 4.93,
+    "pressure": 1008,
+    "humidity": 92,
+    "sea_level": 1008,
+    "grnd_level": 1006
   },
-  "visibility": 10000,
+  "visibility": 5078,
   "wind": {
-    "speed": 3.99,
-    "deg": 277,
-    "gust": 8.22
+    "speed": 2.58,
+    "deg": 275,
+    "gust": 5.58
   },
   "clouds": {
-    "all": 100
+    "all": 98
   },
-  "dt": 1670463709,
+  "dt": 1670515574,
   "sys": {
     "type": 2,
-    "id": 2072510,
+    "id": 2011240,
     "country": "BE",
-    "sunrise": 1670484910,
+    "sunrise": 1670484908,
     "sunset": 1670513939
   },
   "timezone": 3600,

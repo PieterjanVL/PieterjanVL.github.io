@@ -34,6 +34,6 @@ file_bestaat "${CSV_FILE}" "data.csv"
 dir_bestaat "${RUWE_DATA}" "ruwe_data"
 dir_bestaat "${RAPPORRT}" "rapport"
 dir_bestaat "${ANALYSE}" "analyse"
-dir_bestaat "${ANALYSE}${timestamp}" "analyse/${timestamp}"
+dir_bestaat "${ANALYSE}${timestamp2}" "analyse/${timestamp2}"
 
 

@@ -7,7 +7,7 @@ import pandas as pd
 #Finds the csv file
 DIR = sys.argv[1]
 #TIME = 'analyse/'+sys.argv[2]
-TIME = 'analyse/analyse1'
+TIME = 'analyse/' + str(sys.argv[2])
 CSV_FILE = DIR + "/data.csv"
 print(CSV_FILE)
 
