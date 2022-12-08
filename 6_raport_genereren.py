@@ -52,13 +52,11 @@ mdFile.new_paragraph("``Conclusie Korenmarkt:`` Lorem ipsum dolor sit amet, cons
 
 mdFile.write('  \n')
 mdFile.write('  \n')
-mdFile.write("Project gemaakt door [Pieterjan Van Landeghem](https://www.linkedin.com/in/pieterjan-van-landeghem-339b7b163/).", color='gray')
+mdFile.new_paragraph("Project gemaakt door [Pieterjan Van Landeghem](https://www.linkedin.com/in/pieterjan-van-landeghem-339b7b163/).", color='gray')
 mdFile.write('  \n')
+mdFile.new_paragraph("Dit rapport is gemaakt voor het vak linux for data scientists aan de Hogent.", color='gray')
 mdFile.write('  \n')
-mdFile.write("Dit rapport is gemaakt voor het vak linux for data scientists aan de Hogent.", color='gray')
-mdFile.write('  \n')
-mdFile.write('  \n')
-mdFile.write('Published on ' + str(TIME), align='center')
+mdFile.new_paragraph('Published on ' + str(TIME), align='center')
 # Create a table of contents
 mdFile.new_table_of_contents(table_title='Contents', depth=2)
 mdFile.create_md_file()
