@@ -6,7 +6,7 @@ import sys
 DIR = sys.argv[1] + '/'
 TIME = sys.argv[2]
 
-RAPPORT = str(DIR) + 'analyse/' + str(TIME) + '/'
+RAPPORT = str(DIR) + 'analyse/' + 'analyse1' + '/'
 
 #/Users/pieterjan/Documents/linux-22-23-PieterjanVL/data-workflow/rapport/analyse/2022-12-07_23:24:09/test4.png
 
@@ -14,7 +14,7 @@ RAPPORT = str(DIR) + 'analyse/' + str(TIME) + '/'
 
 print(str(RAPPORT)+'test4.png')
 
-mdFile = MdUtils(file_name=str(DIR)+ 'rapport/'+str(TIME), title='Invloed van temperatuur en tijdsaanduiding op de bezetting van fietsenstalling Braunplein en Korenmarkt te Gent. ')
+mdFile = MdUtils(file_name=str(DIR)+ 'rapport/rapport1', title='Invloed van temperatuur en tijdsaanduiding op de bezetting van fietsenstalling Braunplein en Korenmarkt te Gent. ')
 
 mdFile.new_header(level=1, title='Inleiding')  # style is set 'atx' format by default.
 
