@@ -16,7 +16,7 @@ LINK = '../analyse/' + str(TIME)
 
 print(str(RAPPORT)+'test4.png')
 
-mdFile = MdUtils(file_name=str(DIR)+ 'rapport/rapport1', title='Invloed van temperatuur en tijdsaanduiding op de bezetting van fietsenstalling Braunplein en Korenmarkt te Gent. ')
+mdFile = MdUtils(file_name=str(DIR)+ 'rapport/' + str(TIME), title='Invloed van temperatuur en tijdsaanduiding op de bezetting van fietsenstalling Braunplein en Korenmarkt te Gent. ')
 
 mdFile.new_header(level=1, title='Inleiding')  # style is set 'atx' format by default.
 

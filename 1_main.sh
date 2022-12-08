@@ -18,6 +18,7 @@ $HOME/Documents/Rapport/3_data_verzamelen.sh
 $HOME/Documents/Rapport/4_data_transformeren.sh
 python3 $HOME/Documents/Rapport/5_data_analyseren.py "${DIR}" "${timestamp2}"
 python3 $HOME/Documents/Rapport/6_raport_genereren.py "${DIR}" "${timestamp2}"
+printf "* Rapport gemaakt op [%s](rapport/%s.md)\n" "${timestamp}" "${timestamp2}"  >> README.md
 #./2_setup.sh 
 #./3_data_verzamelen.sh #STAP 1
 #./4_data_transformeren.sh #STAP 2
