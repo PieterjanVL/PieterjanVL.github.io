@@ -26,11 +26,11 @@ mdFile.new_header(level=1, title="Algemene analyse")
 mdFile.new_paragraph("In de algemene analyse kijken we naar de gemmidelde waarde van beide fietsparkingen. Later in het rapport worden beide fietsparkingen apart besproken.")
 
 mdFile.new_header(level=2, title="Invloed van temperatuur op de bezetting")
-mdFile.new_paragraph(Html.image('/analyse/analyse1/grafiek4.png', size='400x300', align='center'))
+mdFile.new_paragraph(Html.image('../analyse/analyse1/grafiek4.png', size='400x300', align='center'))
 mdFile.new_paragraph("``Conclusie:`` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.")
 
 mdFile.new_header(level=2, title="Invloed van tijdsaanduiding op de bezetting")
-mdFile.new_paragraph(Html.image('/analyse/analyse1/grafiek3.png', size='400x300', align='center'))
+mdFile.new_paragraph(Html.image('../analyse/analyse1/grafiek3.png', size='400x300', align='center'))
 mdFile.new_paragraph("``Conclusie:`` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.")
 
 # Available Features
@@ -38,12 +38,12 @@ mdFile.new_header(level=1, title="Individuele analyse")
 mdFile.new_paragraph("De specifieke analyse bekijkt en analyseerd beide fietsparkingen apart.")
 
 mdFile.new_header(level=2, title="Invloed van temperatuur op individuele bezetting")
-mdFile.new_paragraph(Html.image('/analyse/analyse1/grafiek1.png', size='400x300', align='center'))
+mdFile.new_paragraph(Html.image('../analyse/analyse1/grafiek1.png', size='400x300', align='center'))
 mdFile.new_paragraph("``Conclusie Braunplein: `` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.")
 mdFile.new_paragraph("``Conclusie Korenmarkt: `` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.")
 
 mdFile.new_header(level=2, title="Invloed van tijdsaanduiding op de individuele bezetting")
-mdFile.new_paragraph(Html.image('/analyse/analyse1/grafiek2.png', size='400x300', align='center'))
+mdFile.new_paragraph(Html.image('../analyse/analyse1/grafiek2.png', size='400x300', align='center'))
 mdFile.new_paragraph("``Conclusie Braunplein:`` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.")
 mdFile.new_paragraph("``Conclusie Korenmarkt:`` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pharetra interdum vestibulum. Sed feugiat suscipit suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum congue velit, non aliquet ante sollicitudin eget. Vestibulum ligula augue, luctus sed tortor eget, ornare pellentesque tortor. Fusce scelerisque arcu a augue condimentum commodo. Praesent id rhoncus mauris, et ornare augue. Donec a lectus quis massa vulputate ullamcorper.")
 
