@@ -52,9 +52,9 @@ mdFile.new_paragraph("``Conclusie Korenmarkt:`` Lorem ipsum dolor sit amet, cons
 
 mdFile.write('  \n')
 mdFile.write('  \n')
-mdFile.new_paragraph("Project gemaakt door [link naar api](https://data.stad.gent/explore/dataset/real-time-bezettingen-fietsenstallingen-gent/api/).", color='gray')
+mdFile.new_paragraph("Project gemaakt door [link naar api](https://data.stad.gent/explore/dataset/real-time-bezettingen-fietsenstallingen-gent/api/).")
 mdFile.write('  \n')
-mdFile.new_paragraph("Dit rapport is gemaakt voor het vak linux for data scientists aan de Hogent.", color='gray')
+mdFile.new_paragraph("Dit rapport is gemaakt voor het vak linux for data scientists aan de Hogent.")
 mdFile.write('  \n')
 mdFile.new_paragraph('Published on ' + str(TIME), align='center')
 # Create a table of contents
