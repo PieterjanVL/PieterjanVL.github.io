@@ -2,6 +2,5 @@ import os
 
 test = '/home/runner/work/PieterjanVL/Rapport/analyse/'
 
-print('ik maak file')
-os.mkdir(test + 'test') 
+print(os.path.exists(test))
 print('File is gemaakt')
