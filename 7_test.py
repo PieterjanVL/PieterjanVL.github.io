@@ -107,6 +107,3 @@ mdFile.new_table_of_contents(table_title='Contents', depth=2)
 mdFile.create_md_file()
 ################################################################################@
 
-f= open(os.getcwd() + '/analyse/' + dt_string + '/ok.txt',"w+")
-for i in range(60):
-     f.write("This is line %d\r\n" % (i+1))
