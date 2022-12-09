@@ -28,12 +28,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Voert test uit 
       run: python ./7_test.py
-    - name: update file and push to remote
-        run: |   
-        git config --global user.name "PieterjanVL"
-        git config --global user.email "pieterjan.vanlandeghem@student.hogent.be"
-
-        git add -A
-        git commit -m "Update test.txt"
-        git push    
     
