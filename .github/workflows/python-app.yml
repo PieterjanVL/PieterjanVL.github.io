@@ -29,10 +29,8 @@ jobs:
     - name: Voert test uit 
       run: python ./7_test.py
     - name: Commit changes
-        uses: EndBug/add-and-commit@v8
+        - uses: EndBug/add-and-commit@v9
         with:
-          author_name: PieterjanVL
-          author_email: pieterjan.vanlandeghem@student.hogent.be
-          message: 'Your commit message'
+          default_author: github_actions
         
     
