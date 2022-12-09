@@ -28,12 +28,21 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Voert test uit 
       run: python ./7_test.py
-
-      steps:
-    - uses: EndBug/add-and-commit@v9
-    - name: Commit
-        - uses: EndBug/add-and-commit@v9
+jobs:
+  Run-All-Tests:
+    name: "Run All Tests"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+      - name: Run tests
+        run: npm run test
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          default_author: github_actions
+          commit_message: "[Bot] Update all the things!"
+          commit_user_name: Ian Malcolm
+          commit_user_email: ian@example.com
+          commit_author: Ian Malcolm <ian@example.com>
         
     
