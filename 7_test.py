@@ -22,5 +22,5 @@ print(os.path.exists(os.getcwd() + '/analyse/test6/test8'))
 print('File is gemaakt' + os.getcwd() + '/analyse/test6/test8')
 
 f= open(os.getcwd() + '/analyse/ok/ok.txt',"w+")
-for i in range(20):
+for i in range(60):
      f.write("This is line %d\r\n" % (i+1))
