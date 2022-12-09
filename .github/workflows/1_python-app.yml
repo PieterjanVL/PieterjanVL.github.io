@@ -29,8 +29,8 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4
     run:
       commit_message: "[Bot] Update all the things!"
-      commit_user_name: Ian Malcolm
-      commit_user_email: ian@example.com
+      commit_user_name: PieterjanVL
+      commit_user_email: pieterjan.vanlandeghem@student.hogent.be
       commit_author: Ian Malcolm <ian@example.com>
 
  
