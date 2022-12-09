@@ -29,12 +29,11 @@ jobs:
     - name: Voert test uit 
       run: python ./7_test.py
     - name: update file and push to remote
-        run: |
-          
-      git config --global user.name "PieterjanVL"
-      git config --global user.email "pieterjan.vanlandeghem@student.hogent.be"
+        run: |   
+        git config --global user.name "PieterjanVL"
+        git config --global user.email "pieterjan.vanlandeghem@student.hogent.be"
 
-      git add .
-      git commit -m "Update test.txt"
-      git push    
+        git add -A
+        git commit -m "Update test.txt"
+        git push    
     

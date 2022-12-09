@@ -11,7 +11,7 @@ print('File is gemaakt' + os.getcwd())
 print(os.path.exists(os.getcwd() + '/analyse/2022-12-08_18-48-34'))
 print('File is gemaakt' + os.getcwd() + '/analyse')
 
-os.makedirs(os.getcwd() + '/analyse/test4')
+os.makedirs(os.getcwd() + '/analyse/test6')
 
 print(os.path.exists(os.getcwd() + '/analyse/test4'))
 print('File is gemaakt' + os.getcwd() + '/analyse/test4')
