@@ -1,6 +1,6 @@
 import os
+from os.path import abspath, join, dirname
+PROJECT_ROOT_PATH = abspath(join(dirname(abspath(__file__)), '..'))
 
-test = '/home/runner/work/PieterjanVL/Rapport/analyse/'
-
-print(os.path.exists(test))
-print('File is gemaakt')
+print(os.path.exists(PROJECT_ROOT_PATH))
+print('File is gemaakt  ' + PROJECT_ROOT_PATH)
