@@ -28,4 +28,11 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Voert test uit 
       run: python ./7_test.py
+    - name: Commit changes
+        uses: EndBug/add-and-commit@v8
+        with:
+          author_name: PieterjanVL
+          author_email: pieterjan.vanlandeghem@student.hogent.be
+          message: 'Your commit message'
+        
     
