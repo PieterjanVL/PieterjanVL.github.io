@@ -5,9 +5,6 @@ import seaborn as sns
 import sys
 import pandas as pd
 
-df = pd.read_csv(os.getcwd() + '/data.csv').drop_duplicates()
-print(df)
-
 print(os.path.exists(os.getcwd()))
 print('File is gemaakt' + os.getcwd())
 
