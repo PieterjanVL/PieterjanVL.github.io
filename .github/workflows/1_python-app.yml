@@ -11,9 +11,12 @@ on:
 
 
 jobs:
-  build:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
@@ -26,8 +29,6 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Voert test uit 
       run: python ./7_test.py
-    - name: Checkout 🛎️
-      uses: actions/checkout@v3
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
