@@ -113,8 +113,11 @@ mdFile.create_md_file()
 
 
 
-myFile = open(os.getcwd() + '/README.md', 'w') # or 'a' to add text instead of truncate
-myFile.write('Rapport gemaakt op [' + str(dt_string2) + '](rapport/' + str(dt_string) + '.md)')
-myFile.close()
 
-#* Rapport gemaakt op [2022-12-09_16:21:04](rapport/2022-12-09_16-21-04.md)
+
+one_line = '* Rapport gemaakt op [' + str(dt_string2) + '](rapport/' + str(dt_string) + '.md) \n'
+with open(os.getcwd() + '/README.md', 'r+') as fp:
+    lines = fp.readlines()     # lines is list of line, each element '...\n'
+    lines.insert(0, one_line)  # you can use any index if you know the line index
+    fp.seek(0)                 # file pointer locates at the beginning to write the whole file again
+    fp.writelines(lines) 
