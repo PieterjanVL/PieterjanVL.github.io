@@ -11,6 +11,7 @@ TIME = 'analyse/' + str(sys.argv[2])
 CSV_FILE = DIR + "/data.csv"
 print(CSV_FILE)
 
+
 df = pd.read_csv(CSV_FILE).drop_duplicates()
 print(df)
 
