@@ -8,7 +8,6 @@ timestamp=$(date +%F_%T)
 timestamp2=$(date +%F_%H-%M-%S)
 
 echo "${timestamp}"
-echo "${timestamp2}"
 
 export DIR
 export timestamp
@@ -16,6 +15,6 @@ export timestamp2
 ./2_setup.sh
 ./3_data_verzamelen.sh
 ./4_data_transformeren.sh
-python3 ./5_data_analyseren.py "${DIR}" "${timestamp2}"
-python3 ./6_raport_genereren.py "${DIR}" "${timestamp2}"
-printf "* Rapport gemaakt op [%s](rapport/%s.md)\n" "${timestamp}" "${timestamp2}" | cat - README.md > temp && mv temp README.md
+#python3 ./5_data_analyseren.py "${DIR}" "${timestamp2}"
+#python3 ./6_raport_genereren.py "${DIR}" "${timestamp2}"
+#printf "* Rapport gemaakt op [%s](rapport/%s.md)\n" "${timestamp}" "${timestamp2}" | cat - README.md > temp && mv temp README.md
