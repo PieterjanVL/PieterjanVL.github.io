@@ -12,7 +12,7 @@ LINK = '../analyse/' + str(TIME)
 
 #/Users/pieterjan/Documents/linux-22-23-PieterjanVL/data-workflow/rapport/analyse/2022-12-07_23:24:09/test4.png
 
-#print(RAPPORT)
+
 
 print(str(RAPPORT)+'test4.png')
 
