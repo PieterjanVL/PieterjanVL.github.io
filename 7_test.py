@@ -14,6 +14,8 @@ dt_string = now.strftime("%Y-%m-%d_%H-%M-%S")
 
 dt_string2 = now.strftime("%Y-%m-%d_%H:%M:%S")
 
+print(dt_string + 'en ' + dt_string2)
+
 save_grafiek = os.getcwd()+'/analyse/' + str(dt_string)
 
 print(os.path.exists(os.getcwd()))
