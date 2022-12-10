@@ -109,5 +109,12 @@ mdFile.new_paragraph('Published on ' + str(dt_string2 ), align='center')
 # Create a table of contents
 mdFile.new_table_of_contents(table_title='Contents', depth=2)
 mdFile.create_md_file()
-################################################################################@
+################################################################################
 
+
+
+myFile = open(os.getcwd() + '/README.md', 'w') # or 'a' to add text instead of truncate
+myFile.write('Rapport gemaakt op [' + str(dt_string2) + '](rapport/' + str(dt_string) + '.md)')
+myFile.close()
+
+#* Rapport gemaakt op [2022-12-09_16:21:04](rapport/2022-12-09_16-21-04.md)
